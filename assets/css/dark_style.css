@@ -10,7 +10,6 @@
 --------------------------------------------------------------*/
 body {
     background: #112;                           /* was fff (white)*/
-    color: #fff;                                /* was 444 (white)*/
     font-family: "Open Sans", sans-serif;
   }
   
@@ -510,14 +509,6 @@ body {
     background-size: cover;
     padding: 40px 0;
     color: #ff5;
-  }
-  #dark-section .ds-title {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 700;
-  }
-  #dark-section .ds-text {
-    color: #fff;
   }
 
   /* About Section

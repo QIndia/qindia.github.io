@@ -1100,3 +1100,41 @@ section {
 #footer .credits a {
   color: #0c2e8a;
 }
+
+/* Dark Section
+--------------------------------*/
+
+/* Sections Header
+--------------------------------*/
+.dark-section-header {
+  margin-bottom: 30px;
+}
+.dark-section-header h2 {
+  font-size: 32px;
+  color: #aac; 
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 20px;
+}
+.dark-section-header h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #556;
+  bottom: 0;
+  left: 0;
+}
+.dark-section-header p {
+  padding: 0;
+  margin: 0;
+}
+
+#dark-section {
+  background: #223;
+  background-size: cover;
+  padding: 40px 0;
+  color: #dde;
+}
