@@ -426,6 +426,8 @@ body {
   section {
     padding: 40px 0;
     overflow: hidden;
+    background: #112;                           /* was fff (white)*/
+    
   }
   
   /* Sections Header
@@ -435,7 +437,7 @@ body {
   }
   .section-header h2 {
     font-size: 32px;
-    color: #0c2e8a;
+    color: #aac;                           /* was 0c2e8a (blue)*/
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
@@ -1096,8 +1098,8 @@ body {
   #footer .credits {
     text-align: center;
     font-size: 13px;
-    color: #555;
+    color: #f2f5f8; /* was 555; */
   }
   #footer .credits a {
-    color: #f2f5f8; /* 0c2e8a; */
+    color: #f2f5f8; /* was 0c2e8a; */
   }
