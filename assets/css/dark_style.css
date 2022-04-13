@@ -428,6 +428,7 @@ body {
     overflow: hidden;
     background: #112;                           /* was fff (white)*/
     background-color: #211;                     /* was fff (white)*/
+    background-size: cover;
     
   }
   
