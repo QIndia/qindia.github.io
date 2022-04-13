@@ -1089,16 +1089,17 @@ section {
   font-size: 14px;
 }
 #footer .copyright {
+  color: #f2f5f8; /* was not there */
   text-align: center;
   padding-top: 30px;
 }
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #555;
+  color: #f2f5f8; /* was 555; */
 }
 #footer .credits a {
-  color: #0c2e8a;
+  color: #f2f5f8; /* was 0c2e8a; */
 }
 
 /* Dark Section
