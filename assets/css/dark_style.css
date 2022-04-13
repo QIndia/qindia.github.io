@@ -426,10 +426,8 @@ body {
   section {
     padding: 40px 0;
     overflow: hidden;
-    background-size: cover;
-    
   }
-  
+
   /* Sections Header
   --------------------------------*/
   .section-header {
@@ -504,7 +502,24 @@ body {
       display: inline-block;
     }
   }
-  
+
+  /* Dark Section
+  --------------------------------*/
+  #dark-section {
+    background: #112;
+    background-size: cover;
+    padding: 40px 0;
+    color: #ff5;
+  }
+  #dark-section .ds-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  #dark-section .ds-text {
+    color: #fff;
+  }
+
   /* About Section
   --------------------------------*/
   #about {
