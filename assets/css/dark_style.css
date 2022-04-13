@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-    background: #233;                           /* was fff (white)*/
-    color: #444;
+    background: #112;                           /* was fff (white)*/
+    color: #fff;                                /* was 444 (white)*/
     font-family: "Open Sans", sans-serif;
   }
   
@@ -1089,6 +1089,7 @@ body {
     font-size: 14px;
   }
   #footer .copyright {
+    color: #f2f5f8; /* was not there */
     text-align: center;
     padding-top: 30px;
   }
@@ -1098,5 +1099,5 @@ body {
     color: #555;
   }
   #footer .credits a {
-    color: #0c2e8a;
+    color: #f2f5f8; /* 0c2e8a; */
   }
